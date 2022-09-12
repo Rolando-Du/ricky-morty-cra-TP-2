@@ -1,0 +1,37 @@
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.HomePage {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    color: #fff;
+    font-family: "Shlop";
+}
+
+
+.video {
+    position: absolute;
+    object-fit: cover;
+}
+
+h1 {
+    justify-content: center;
+    padding: 3rem;
+    background: url(https://static.vecteezy.com/system/resources/previews/007/069/163/non_2x/amazing-complete-dark-starry-sky-night-in-the-nature-free-photo.jpg);
+    text-align: center;
+    mix-blend-mode: multiply;
+}
+
+p.title-r-m {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 200px;
+    text-align: center;
+    font-weight: 800;
+}

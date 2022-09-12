@@ -1,0 +1,71 @@
+.container-form {
+    background: url(https://www.xtrafondos.com/descargar.php?id=5441&resolucion=2560x1440);
+    background-size: cover;
+    padding: 5rem 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: auto;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(226, 226, 226, 0.1));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.36);
+    border: 1px solid rgba(196, 2, 2, 0.16);
+    border-radius: 10px;
+}
+
+form input {
+    width: 100%;
+    padding: 16px;
+    background-color: transparent;
+    border: none;
+    margin-bottom: 16px;
+    outline: none;
+    font-size: 14px;
+    border: 2px solid #4696ff;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+form textarea {
+    width: 100%;
+    padding: 16px;
+    background-color: transparent;
+    border: none;
+    margin-bottom: 16px;
+    outline: none;
+    font-size: 14px;
+    border: 2px solid #4696ff;
+    box-sizing: border-box;
+    height: 150px;
+}
+
+form button[type="submit"] {
+    background-color: #088a3e;
+    color: #ffffff;
+    outline: none;
+    font-size: 14px;
+    border: none;
+    border-radius: 10px;
+    padding: 16px;
+    width: 100%;
+}
+
+form button[type="submit"]:hover {
+    background-color: rgb(4, 65, 196);
+    color: #030303;
+}
+
+/* Error fields */
+
+form .error {
+    border: 2px solid #e53e3e;
+}
+
+form .errorText {
+    color: #ff0000;
+    margin-bottom: 16px;
+}

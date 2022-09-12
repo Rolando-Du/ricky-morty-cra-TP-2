@@ -1,3 +1,64 @@
+Trabajo práctico N° 2 -(Skill Factory by AVALITH.)
+
+En este TP la consigna  consistió en pasar de un proyecto HTML, CSS y JavaScript (página clasica) a una página en React. Debíamos crear  componentes eh renderizar cada uno con la implementación de nuevas dependencias, las cuales encontraran  dentro del package.json tales como:
+
+React-bootstrap
+React - Router - Dom
+Axios
+Formik
+React-player
+Yup
+
+Es importante destacar que este proyecto se inició con Create React App.
+
+Preparación del entorno
+Descargue el proyecto desde mi repositorio de Github.
+
+1: Sobre la lista de archivos, haga clic en Código.
+foto: lista de archivos
+
+2: Método HTTPS: Dentro de las opciones seleccione el Icono de Copiar Enlace.
+foto: icono de enlace
+
+Para otras opciones de clonación diríjase al siguiente enlace cloando repositorios.
+
+3: Utilizando la terminal, ejecute los siguientes comandos:
+cd [carperta-destino]
+$ git clone [URL copiada]
+Instalación de dependencias
+Este proyecto requiere mpm.js para funcionar.
+
+Instale las dependencias y ejecute el servidor.
+
+cd [carperta-clonada]
+$ npm i
+$ npm start
+IMPORTANTE: el programa se ejecutará en el navegador que tenga por defecto e intentará utilizar como base el puerto 3000.
+
+Objetivos del proyecto
+Desarrollar un sitio que contenga las siguientes características
+Pagina principal (home) que contenga 3 enlaces:
+1er enlace: un "Formulario de Contacto".
+2do enlace: generar un cuadro con información de clientes el cual se obtiene tras realizar una petición a la API {JSON} Placeholder
+3er enlace: generar un dashboard con los personajes de Rick & Morty los cuales se obtienen de realizar un llamado a la API https://rickandmortyapi.com/
+Sobre este último se debe poder acceder al detalle de cada personaje haciendo click en cada tarjeta.
+Se debe mantener un maquetado correcto en todo momento
+Estilos de CSS libres
+Debe poder renderizarse en otros dispositivos
+Particularidad
+Es importante destacar que parte del trabajo se realizó en equipo pero nuestra metodología se basó en generar espacios de consultas sobre funcionalidades unicamente. Después cada uno le brindó a su proyecto el maquetado y el estilo que consideró adecuado.
+
+Integrantes del equipo:
+Javier Huebra
+Sebastián D'Alessandro
+Matias Spirilis
+Rolando Duarte
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

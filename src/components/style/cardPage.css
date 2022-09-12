@@ -1,0 +1,60 @@
+.dashboard {
+    align-items: center;
+    display: flex;
+}
+
+.enc {
+    justify-content: center;
+    padding: 5rem 0;
+    background: url(/src/assets/img/wallpaper.jpg) no-repeat center center fixed;
+    background-size: cover;
+    width: 100%;
+}
+
+.tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    margin: 10px;
+    cursor: pointer;
+    background: linear-gradient(135deg,
+            rgba(255, 255, 255, 0.1),
+            rgba(226, 226, 226, 0.1));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.36);
+    border: 1px solid rgba(196, 2, 2, 0.16);
+    border-radius: 10px;
+}
+
+.card img {
+    margin: auto;
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 10px;
+    box-shadow: 0 8px 32px 0 rgba(5, 20, 231, 0.36);
+    border: 1px solid rgba(255, 251, 8, 0.16);
+}
+
+.card-title {
+    width: 100%;
+    color: rgb(3, 3, 3);
+    text-align: center;
+}
+
+.card-body {
+    width: 100%;
+    color: rgb(3, 3, 3);
+}

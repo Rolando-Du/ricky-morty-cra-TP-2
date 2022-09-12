@@ -1,0 +1,71 @@
+.users {
+    color: aliceblue;
+    background: url(https://fondosmil.com/fondo/27341.png)no-repeat center;
+    background-size: cover;
+    justify-content: center;
+    padding: 5rem;
+}
+
+.users__container {
+    align-items: center;
+    color: bisque;
+    border-radius: 15px;
+    margin-top: 20px;
+    padding: 10px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(226, 226, 226, 0.1));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.36);
+    border: 1px solid rgba(196, 2, 2, 0.16);
+}
+
+.users__list-titles {
+    align-items: center;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 8px 32px 0 rgba(5, 20, 231, 0.36);
+    border: 1px solid rgba(255, 251, 8, 0.16);
+    display: flex;
+    justify-content: space-between;
+    font-size: small;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.users__list-parameters,
+.users__list-parameters2 {
+    font-size: 8px;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    display: flex;
+    padding: 5px;
+}
+
+.parameter__id {
+    display: flex;
+    justify-content: center;
+    padding: 0 20px;
+    font-weight: bold;
+    border: 1px solid rgba(208, 233, 179, 0.726);
+}
+
+.parameter__large {
+    display: flex;
+    justify-content: center;
+    padding: 0 2px;
+    width: 180px;
+    box-shadow: 0 8px 32px 0 rgba(5, 122, 231, 0.36);
+    border: 1px solid rgba(8, 226, 255, 0.726);
+}
+
+.parameter__xlarge {
+    display: flex;
+    padding: 0 2px;
+    width: 200px;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 8px 32px 0 rgba(5, 122, 231, 0.36);
+    border: 1px solid rgba(8, 226, 255, 0.726);
+}
