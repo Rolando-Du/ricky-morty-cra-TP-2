@@ -2,60 +2,54 @@ Trabajo práctico N° 2 -(Skill Factory by AVALITH.)
 
 En este TP la consigna  consistió en pasar de un proyecto HTML, CSS y JavaScript (página clasica) a una página en React. Debíamos crear  componentes eh renderizar cada uno con la implementación de nuevas dependencias, las cuales encontraran  dentro del package.json tales como:
 
-React-bootstrap
-React - Router - Dom
-Axios
-Formik
-React-player
-Yup
+    React-bootstrap
+    React - Router - Dom
+    Axios
+    Formik
+    React-player
+    Yup
 
-Es importante destacar que este proyecto se inició con Create React App.
+__Es importante destacar que este proyecto se inició con Create React App.__
 
-Preparación del entorno
+__*Preparación del entorno*__
 Descargue el proyecto desde mi repositorio de Github.
 
-1: Sobre la lista de archivos, haga clic en Código.
-foto: lista de archivos
-
-2: Método HTTPS: Dentro de las opciones seleccione el Icono de Copiar Enlace.
-foto: icono de enlace
-
-Para otras opciones de clonación diríjase al siguiente enlace cloando repositorios.
-
-3: Utilizando la terminal, ejecute los siguientes comandos:
-cd [carperta-destino]
+__1__- Sobre la lista de archivos, haga clic en Código.
+__2__- Método HTTPS: Dentro de las opciones seleccione el Icono de Copiar Enlace.
+__3__-  Utilizando la terminal, ejecute los siguientes comandos:
+__cd__ [carperta-destino]
 $ git clone [URL copiada]
-Instalación de dependencias
-Este proyecto requiere mpm.js para funcionar.
 
-Instale las dependencias y ejecute el servidor.
+__*Instalación de dependencias*__
+Este proyecto requiere mpm para inicilizae en su editor.
+
+__Instale las dependencias y ejecute el servidor__
 
 cd [carperta-clonada]
-$ npm i
+$ npm install
+
+*Para visualizar en su browser deje ejecutar el siguiente comando:*
 $ npm start
-IMPORTANTE: el programa se ejecutará en el navegador que tenga por defecto e intentará utilizar como base el puerto 3000.
+__IMPORTANTE:__
+__*El programa se ejecutará en el navegador que tenga por defecto e intentará utilizar como base el puerto 3000.*__
 
 Objetivos del proyecto
 Desarrollar un sitio que contenga las siguientes características
-Pagina principal (home) que contenga 3 enlaces:
-1er enlace: un "Formulario de Contacto".
-2do enlace: generar un cuadro con información de clientes el cual se obtiene tras realizar una petición a la API {JSON} Placeholder
-3er enlace: generar un dashboard con los personajes de Rick & Morty los cuales se obtienen de realizar un llamado a la API https://rickandmortyapi.com/
-Sobre este último se debe poder acceder al detalle de cada personaje haciendo click en cada tarjeta.
-Se debe mantener un maquetado correcto en todo momento
-Estilos de CSS libres
+Contener enlaces:
+* Formulario de Contacto.
+* Generar un dashboard con los personajes de Rick & Morty los cuales se obtienen de realizar un llamados de la API https://rickandmortyapi.com/
+* Generar un listado de usuarios llamados de la API https://jsonplaceholder.typicode.com/users
+
+*__Estilos de CSS libres__*
 Debe poder renderizarse en otros dispositivos
 Particularidad
 Es importante destacar que parte del trabajo se realizó en equipo pero nuestra metodología se basó en generar espacios de consultas sobre funcionalidades unicamente. Después cada uno le brindó a su proyecto el maquetado y el estilo que consideró adecuado.
 
 Integrantes del equipo:
-Javier Huebra
-Sebastián D'Alessandro
-Matias Spirilis
-Rolando Duarte
-
-
-
+__Javier Huebra https://www.linkedin.com/in/javieremanuelhuebra/__
+__Sebastián D'Alessandro https://www.linkedin.com/in/sebadalessandro/__
+__Matias Spirilis https://www.linkedin.com/in/matias-spirilis/__
+__Rolando Duarte https://www.linkedin.com/in/rolando-ramon-duarte-93116b17a/__
 
 
 
