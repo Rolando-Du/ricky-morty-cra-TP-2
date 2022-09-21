@@ -9,8 +9,8 @@ function HomePage() {
                 <ReactPlayer
                     className="video"
                     url="https://youtu.be/EBYsx1QWF9A"
-                    width="100%"
-                    height="100%"
+                    width="100vw"
+                    height="100vh"
                     playing="true"
                     muted
                     loop="true"

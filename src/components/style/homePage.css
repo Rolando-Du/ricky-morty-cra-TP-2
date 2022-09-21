@@ -23,6 +23,8 @@ h1 {
     justify-content: center;
     padding: 3rem;
     background: url(https://static.vecteezy.com/system/resources/previews/007/069/163/non_2x/amazing-complete-dark-starry-sky-night-in-the-nature-free-photo.jpg);
+    width: 100vw;
+    height: 100vh;
     text-align: center;
     mix-blend-mode: multiply;
 }

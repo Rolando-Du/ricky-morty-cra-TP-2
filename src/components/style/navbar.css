@@ -1,5 +1,4 @@
 .navbar-container {
-    margin: 5px;
     width: 100%;
     justify-content: space-between;
     position: absolute;
@@ -23,6 +22,8 @@
     font-size: xxx-large;
     font-weight: bold;
 }
+
+
 
 a.nav-link:hover {
     color: rgb(4, 236, 62);

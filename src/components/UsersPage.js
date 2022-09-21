@@ -31,7 +31,7 @@ const UsersPage = () => {
                     {!usuarios
                         ? "Loading..."
                         : usuarios.map((usuario, index) => {
-                            console.log(usuario);
+                            // console.log(usuario);
                             return (
                                 <UsersCard
                                     key={index}
